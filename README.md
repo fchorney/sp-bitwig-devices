@@ -11,6 +11,7 @@ Native devices for Bitwig Studio, loaded with [Patchbay](https://github.com/shab
 | Device | Type | What it does | Panel |
 | --- | --- | --- | --- |
 | [Sym EQ-5](Bitwig-6.1.7/Sym%20EQ-5.bwdevice) | Audio FX | EQ-5, then an FX chain, then the mirrored EQ-5 that undoes the EQ, so the effects work on the EQ'd signal and the EQ itself is cancelled. LUFS Learn on the output gain. | [Preview](previews/sym-eq-5.png) |
+| [Sub Releaser](Bitwig-6.1.7/Sub%20Releaser.bwdevice) | Note FX | For mono bass and sub lines: when a note starts less than the synth's release time after the previous one ended, the previous note is ended that much earlier, so its release finishes before the next note. Overlapping (legato) notes are left alone. A note scope shows the notes and where they were cut. | [Preview](previews/sub-releaser.png) |
 
 ## Install
 
